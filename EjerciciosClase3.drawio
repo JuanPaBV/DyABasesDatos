@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T21:59:24.945Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="tIbamBQdtypkgbQFX8yU" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T02:26:24.344Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="iiSPu-PUeiXR3fThpyDm" version="24.2.7" type="github">
   <diagram name="Page-1" id="RpZNpe1KApINxEx9jQkk">
-    <mxGraphModel dx="819" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,6 +86,24 @@
               <mxPoint x="690" y="575" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-26" value="&lt;span id=&quot;page928R_mcid7&quot; class=&quot;markedContent&quot;&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: calc(var(--scale-factor)*95.42px); top: calc(var(--scale-factor)*245.90px); font-size: calc(var(--scale-factor)*24.00px); font-family: sans-serif; transform: scaleX(1.00841);&quot;&gt;1.&lt;/span&gt;&lt;/span&gt;&lt;span id=&quot;page928R_mcid8&quot; class=&quot;markedContent&quot;&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: calc(var(--scale-factor)*115.75px); top: calc(var(--scale-factor)*245.90px); font-size: calc(var(--scale-factor)*24.00px); font-family: sans-serif;&quot;&gt; &lt;/span&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: calc(var(--scale-factor)*131.42px); top: calc(var(--scale-factor)*245.90px); font-size: calc(var(--scale-factor)*24.00px); font-family: sans-serif; transform: scaleX(0.997613);&quot;&gt;Ventas de artículos a Clientes de una de Tienda Indumentaria.&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="164" y="890" width="522" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="LwWXZl5ga7UyLNcfdgvz-27" target="LwWXZl5ga7UyLNcfdgvz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-27" value="Cliente" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-28" value="Articulo" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="670" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="LwWXZl5ga7UyLNcfdgvz-29" target="LwWXZl5ga7UyLNcfdgvz-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwWXZl5ga7UyLNcfdgvz-29" value="Ventas" style="whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="425" y="1040" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
